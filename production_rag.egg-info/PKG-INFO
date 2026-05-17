@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: production-rag
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.136.1
+Requires-Dist: google-genai>=2.0.1
+Requires-Dist: google-generativeai>=0.8.6
+Requires-Dist: inngest>=0.5.18
+Requires-Dist: llama-index>=0.14.21
+Requires-Dist: llama-index-core>=0.14.21
+Requires-Dist: llama-index-readers-file>=0.6.0
+Requires-Dist: python-dotenv>=1.2.2
+Requires-Dist: qdrant-client>=1.17.1
+Requires-Dist: streamlit>=1.57.0
+Requires-Dist: uvicorn>=0.46.0
