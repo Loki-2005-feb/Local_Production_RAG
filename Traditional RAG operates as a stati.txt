@@ -1,0 +1,23 @@
+Traditional RAG operates as a static, linear pipeline where the system blindly retrieves information based on predefined queries and generates a response, lacking the ability to reason or adapt.  In contrast, Agentic RAG utilizes autonomous AI agents to create a dynamic, cyclic feedback loop where the system plans, reasons, and iteratively refines its retrieval strategies to solve complex, multi-step problems
+
+GGUF is a cross-platform format optimized for quantization and inference, while MLX is an Apple-specific framework that includes both a format and a runtime engine designed to leverage Apple Silicon’s unified memory architecture
+
+Phi-4-mini is a lightweight, open-source small language model (SLM) from Microsoft, featuring 3.8 billion parameters and a 128K token context window.  It is distinguished by its ability to deliver high-performance reasoning, coding, and instruction-following capabilities comparable to much larger models, while remaining efficient enough for deployment on edge devices and local hardware.
+
+npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
+
+ollama run
+
+uvicorn main:app --reload  
+
+ "pdf_path":"C:\\Users\\lenovo\\Downloads\\Sudha.pdf"
+
+docker run -p 6333:6333 qdrant/qdrant
+
+Qdrant is a highly specialized vector database and search engine designed to store, search, and manage high-dimensional data (like AI embeddings). It is primarily used to power semantic search, recommendation systems, and Retrieval-Augmented Generation (RAG) for AI applications.
+
+Inngest is an event-driven, durable execution platform that allows developers to build reliable background jobs, scheduled tasks, and complex workflows without managing infrastructure like queues or workers.
+
+Streamlit is primarily used to build and share interactive web applications for data science, machine learning, and AI projects using only Python. It eliminates the need to know HTML, CSS, or JavaScript, allowing developers to create front-end interfaces for their data scripts in minutes rather than weeks.
+
+nomic-embed-text:latest is a popular open-source text embedding model used to convert words, sentences, and entire documents into compact numerical vectors. It captures the semantic meaning of text and is primarily used for search, retrieval, and analysis
