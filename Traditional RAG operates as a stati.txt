@@ -8,9 +8,11 @@ npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
 
 ollama run phi4-mini
 
-uvicorn main:app --reload  
+python -m uvicorn main:app --reload  
 
  "pdf_path":"C:\\Users\\lenovo\\Downloads\\Sudha.pdf"
+
+python -m streamlit run streamlit_app.py
 
 docker run -p 6333:6333 qdrant/qdrant
 
