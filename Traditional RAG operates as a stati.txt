@@ -6,7 +6,7 @@ Phi-4-mini is a lightweight, open-source small language model (SLM) from Microso
 
 npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
 
-ollama run
+ollama run phi4-mini
 
 uvicorn main:app --reload  
 
