@@ -4,17 +4,18 @@ GGUF is a cross-platform format optimized for quantization and inference, while 
 
 Phi-4-mini is a lightweight, open-source small language model (SLM) from Microsoft, featuring 3.8 billion parameters and a 128K token context window.  It is distinguished by its ability to deliver high-performance reasoning, coding, and instruction-following capabilities comparable to much larger models, while remaining efficient enough for deployment on edge devices and local hardware.
 
-npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
 
-ollama run phi4-mini
+1.ollama run phi4-mini
 
-python -m uvicorn main:app --reload  
+2.docker run -p 6333:6333 qdrant/qdrant
+
+3.npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
+
+4.python -m uvicorn main:app --reload  
+
+5.python -m streamlit run streamlit_app.py
 
  "pdf_path":"C:\\Users\\lenovo\\Downloads\\Sudha.pdf"
-
-python -m streamlit run streamlit_app.py
-
-docker run -p 6333:6333 qdrant/qdrant
 
 Qdrant is a highly specialized vector database and search engine designed to store, search, and manage high-dimensional data (like AI embeddings). It is primarily used to power semantic search, recommendation systems, and Retrieval-Augmented Generation (RAG) for AI applications.
 
